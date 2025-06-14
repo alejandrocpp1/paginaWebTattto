@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(206, 206, 206);
+}
+
+/* nv bar */
+.barralinks{
+    display: flex; 
+    align-items: center; 
+    background-color: #010653cc;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    margin-right: 30px; 
+}
+
+li a{
+    display: block;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background-color: #160146;
+}
+.logo img{
+    height: 60px; 
+    vertical-align: middle; 
+}
+
+
+section{
+    width: 65%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f5f5f5d7; 
+    border: 1px solid #ccccccd2; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+div{
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+.steven {
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+
+p{
+padding: 10px
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+h1, h2, h3{
+padding: 10px;
+}
+
+.rojo{
+    color: red;
+}
+
+
+.iconoinstagram{
+    width: 80px;
+    height: 80px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.mainfooter{
+    background: linear-gradient(90deg, #250d5e 0%, #010653cc 100%);
+    color: white;
+    padding: 2rem 1rem 1rem;
+}
