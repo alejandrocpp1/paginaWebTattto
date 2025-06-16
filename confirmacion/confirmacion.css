@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #d6d6d6;
+}
+
+/* nv bar */
+.barralinks{
+    display: flex; 
+    align-items: center; 
+    background-color: #010653cc;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    margin-right: 20px; 
+}
+
+li a{
+    display: block;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background-color: #160146;
+}
+
+.logo img{
+    height: 60px; 
+    vertical-align: middle; 
+}
+
+.confirmacion {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #fff;
+    max-width: 400px;
+    width: 90%;
+    margin: 300px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tilde {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.confirmacion h2 {
+    color: #2ecc71;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.confirmacion p {
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.volverboton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.volverboton:hover {
+    background-color: #27ae60;
+}
+
+.iconoinstagram{
+    width: 80px;
+    height: 80px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.mainfooter{
+    background: linear-gradient(90deg, #250d5e 0%, #010653cc 100%);
+    color: white;
+    padding: 2rem 1rem 1rem;
+}
