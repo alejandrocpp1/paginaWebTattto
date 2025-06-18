@@ -136,17 +136,6 @@ iframe{
     width: 80px;
     height: 80px;
 }
-@media (max-width: 768px) {
-    section.contacto-container {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .formulario-contacto,
-    .info-contacto {
-        width: 100%;
-    }
-}
 
 footer{
     text-align: center;
