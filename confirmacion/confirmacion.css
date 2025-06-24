@@ -7,7 +7,7 @@
 
 body{
     background-color: #d6d6d6;
-}
+    min-height: 100vh; display:flex; flex-direction: column;}
 
 /* nv bar */
 .barralinks{
@@ -38,6 +38,7 @@ li a:hover{
 .logo img{
     height: 60px; 
     vertical-align: middle; 
+        filter: invert(1);
 }
 
 .confirmacion {
@@ -86,6 +87,8 @@ li a:hover{
 .volverboton:hover {
     background-color: #27ae60;
 }
+
+
 
 .iconoinstagram{
     width: 80px;

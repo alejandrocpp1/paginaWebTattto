@@ -37,6 +37,7 @@ li a:hover{
 .logo img{
     height: 60px; 
     vertical-align: middle; 
+        filter: invert(1);
 }
 
 
@@ -86,7 +87,8 @@ strong{
 }
 
 
-h3{
+h2{
+        text-shadow: 2px 2px 4px rgba(192, 22, 22, 0.5);
     margin: 0;
     margin-bottom: 10px;
     color: #ffffff;
@@ -127,8 +129,9 @@ h3{
 }
 
 
-
-
+strong{
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+}
 
 
 

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('las-hermosas-estrellas-brillantes-en-el-cielo-nocturno.jpg'); 
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(4px);
+}
+
+.error{
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+}
+
+h1{
+  font-size: 130px;
+  color: #ff0000;
+  text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.7);
+}
+
+h2{
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.2);
+}
+
+p{
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.btn{
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff0000;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
